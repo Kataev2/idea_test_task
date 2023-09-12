@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f3f7fa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 20px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.tickets-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

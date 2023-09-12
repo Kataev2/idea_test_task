@@ -1,0 +1,36 @@
+.filter {
+    width: 290px;
+    height: fit-content;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+.filter__wrapper {
+    margin-top: 10px;
+}
+
+.filter__item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.filter__item input {
+    width: 16px;
+    height: 16px;
+}
+
+.filter__item label {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.filter__title {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0c131d;
+}
